@@ -1,0 +1,34 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-button {
+  width: 200px;
+  height: 100px;
+  background-color: #fcfcfc;
+  font-size: 14px;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  margin-top: 10px;
+}
+
+.App-textArea {
+  width: 98%;
+  height: 87vh;
+  resize: none;
+  background-color: #515969;
+  color: #fcfcfc;
+  font-size: 14px;
+}
+
+.App-input {
+  width: 200px;
+}
